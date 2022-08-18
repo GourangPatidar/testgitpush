@@ -8,6 +8,16 @@ d={
     "name":"gourang" ,
     "surname":"patidar"
 }
+
+d2={
+    "name":"gourang" ,
+    "surname":"patidar"
+}
+
+d3={
+    "name":"gourang" ,
+    "surname":"patidar"
+}
 db1=client['mongotest']
 coll=db1['test']
 coll.insert_one(d)
